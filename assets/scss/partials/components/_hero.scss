@@ -1,0 +1,14 @@
+// hero
+#hero{
+    height: 50rem;
+    max-width: 140rem;
+    margin: 0 auto;
+    border-bottom: .2rem solid $colorWhite;
+
+    position: relative;
+}
+.heroContainer{
+    text-align: center;
+
+    @include flex(center, center);
+}

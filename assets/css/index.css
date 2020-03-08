@@ -1,0 +1,105 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+#navBar {
+  margin: 0 auto;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+}
+
+.navBarContainer {
+  background-color: #f5f5f5;
+  border: 0.1rem solid #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navBarContainer a {
+  padding: 1rem 3rem;
+}
+
+.active {
+  background-color: #0D0D0D;
+  color: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1.6rem;
+  background-color: #0D0D0D;
+  position: relative;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 140rem;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #737373;
+  font-family: "Josefin Slab", serif;
+  font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+  color: #f5f5f5;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+#hero {
+  height: 50rem;
+  max-width: 140rem;
+  margin: 0 auto;
+  border-bottom: 0.2rem solid #f5f5f5;
+  position: relative;
+}
+
+.heroContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,10 @@
+// flex mixin
+@mixin flex($jc, $ai){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin flexAdd($fd, $fw){
+    flex-direction: $fd;
+    flex-flow: $fw;
+}

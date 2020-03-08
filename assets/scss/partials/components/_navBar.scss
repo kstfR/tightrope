@@ -1,0 +1,21 @@
+// navigation bar
+#navBar{
+    margin: 0 auto;
+
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+}
+.navBarContainer{
+    background-color: $colorWhite;
+    border: .1rem solid $colorWhite;
+
+    @include flex(center, center);
+    a{
+        padding: 1rem 3rem;
+    }
+}
+.active{
+    background-color: $colorBlack;
+    color: $colorWhite;
+}
