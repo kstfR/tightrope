@@ -1,18 +1,21 @@
 // navigation bar
 #navBar{
     margin: 0 auto;
+    max-width: 60rem;
 
     position: absolute;
     bottom: -2rem;
     left: 50%;
-}
-.navBarContainer{
-    background-color: $colorWhite;
-    border: .1rem solid $colorWhite;
+    .centerContainer{
+        background-color: $colorWhite;
+        border: .1rem solid $colorWhite;
 
-    @include flex(center, center);
-    a{
-        padding: 1rem 3rem;
+        position: relative;
+        right: 50%;
+        @include flex(center, center);
+        a{
+            padding: 1rem 3rem;
+        }
     }
 }
 .active{

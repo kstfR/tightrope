@@ -1,21 +1,48 @@
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
-#navBar {
+.borderLine {
   margin: 0 auto;
-  position: absolute;
-  bottom: -2rem;
-  left: 50%;
+  height: 40rem;
+  max-width: 135rem;
+  border-bottom: 0.2rem solid #f5f5f5;
 }
 
-.navBarContainer {
-  background-color: #f5f5f5;
-  border: 0.1rem solid #f5f5f5;
+#hero {
+  max-width: 160rem;
+  margin: 0 auto;
+  background-image: url(../img/heroTreeBg.svg);
+  background-position: center 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 6;
+}
+
+.heroContainer {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.navBarContainer a {
+
+#navBar {
+  margin: 0 auto;
+  max-width: 60rem;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+}
+#navBar .centerContainer {
+  background-color: #f5f5f5;
+  border: 0.1rem solid #f5f5f5;
+  position: relative;
+  right: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navBar .centerContainer a {
   padding: 1rem 3rem;
 }
 
@@ -51,6 +78,8 @@ section {
   max-width: 140rem;
   height: 100%;
   margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 a {
@@ -63,16 +92,17 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
-  color: #f5f5f5;
   font-family: "Lato", sans-serif;
 }
 
 h1 {
   font-size: 6rem;
+  color: #f5f5f5;
 }
 
 h2 {
   font-size: 5rem;
+  color: #D9D9D9;
 }
 
 h3 {
@@ -85,6 +115,8 @@ h4 {
 
 p {
   font-size: 1.8rem;
+  color: #404040;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=404.css.map */

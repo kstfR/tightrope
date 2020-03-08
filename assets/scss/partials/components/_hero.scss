@@ -1,11 +1,20 @@
 // hero
-#hero{
-    height: 50rem;
-    max-width: 140rem;
+.borderLine{
     margin: 0 auto;
+    height: 40rem;
+    max-width: 135rem;
     border-bottom: .2rem solid $colorWhite;
+}
+#hero{
+    max-width: 160rem;
+    margin: 0 auto;
+    background-image: url(../img/heroTreeBg.svg);
+    background-position: center 6rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     position: relative;
+    z-index: 6;
 }
 .heroContainer{
     text-align: center;
