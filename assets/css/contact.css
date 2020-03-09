@@ -72,6 +72,9 @@ body {
 
 section {
   padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 section a {
   color: #D9D9D9;
@@ -84,6 +87,7 @@ section a {
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  position: relative;
 }
 
 a {
@@ -105,7 +109,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #D9D9D9;
 }
 
@@ -122,6 +126,14 @@ p {
   font-size: 1.6rem;
   color: #737373;
   font-family: "Open Sans", sans-serif;
+}
+
+.big {
+  flex: 2;
+}
+
+.small {
+  flex: 1;
 }
 
 /*# sourceMappingURL=contact.css.map */

@@ -24,6 +24,8 @@ body{
 }
 section{
     padding: 4rem 0;
+
+    @include flex(space-between, center);
     a{
         color: $colorLGrey;
         text-transform: none;
@@ -35,6 +37,8 @@ section{
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
+
+    position: relative;
 }
 a{
     text-decoration: none;
@@ -52,7 +56,7 @@ h1{
     color: $colorWhite;
 }
 h2{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: $colorLGrey;
 }
 h3{
@@ -66,4 +70,10 @@ p{
     font-size: 1.6rem;
     color: $colorGrey;
     font-family: $fontOpenSans;
+}
+.big{
+    flex: 2;
+}
+.small{
+    flex: 1;
 }
