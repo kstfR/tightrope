@@ -75,6 +75,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-flow: row wrap;
 }
 section a {
   color: #D9D9D9;

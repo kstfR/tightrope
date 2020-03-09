@@ -26,6 +26,7 @@ section{
     padding: 4rem 0;
 
     @include flex(space-between, center);
+    flex-flow: row wrap;
     a{
         color: $colorLGrey;
         text-transform: none;
