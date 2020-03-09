@@ -24,6 +24,10 @@ body{
 }
 section{
     padding: 4rem 0;
+    a{
+        color: $colorLGrey;
+        text-transform: none;
+    }
 }
 .container{
     max-width: 140rem;
@@ -48,17 +52,18 @@ h1{
     color: $colorWhite;
 }
 h2{
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: $colorLGrey;
 }
 h3{
-    font-size: 2.2rem;
+    font-size: 2rem;
+    color: $colorDGrey;
 }
 h4{
     font-size: 1.8rem;
 }
 p{
-    font-size: 1.8rem;
-    color: $colorDGrey;
+    font-size: 1.6rem;
+    color: $colorGrey;
     font-family: $fontOpenSans;
 }
